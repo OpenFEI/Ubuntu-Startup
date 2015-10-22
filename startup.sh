@@ -37,6 +37,8 @@ echo  -e "${blue} NTP ${NC}"
 sudo apt-get -y install ntp
 echo -e "${blue} Gnome-system-tools ${NC}"
 sudo apt-get -y install gnome-system-tools
+echo -e "${blue} Gedit and Plugins ${NC}"
+sudo apt-get -y install gedit && sudo apt-get -y install gedit-pulgins
 echo -e "${blue} Dropbox ${NC}"
 sudo apt-get -y install nautilus-dropbox
 echo -e "${blue} Codeblocks ${NC}"
@@ -122,7 +124,7 @@ sleep 1
 sudo apt-get -y install build-essential cmake
 sudo apt-get -y install qt5-default libvtk6-dev
 sudo apt-get -y install zlib1g-dev libjpeg-dev libwebp-dev libpng-dev libtiff5-dev libjasper-dev libopenexr-dev libgdal-dev
-sudo apt-get -y install libdc1394-22-dev libavcodec-dev libavformat-dev libswscale-dev libtheora-dev libvorbis-dev libxvidcore-dev libx264-dev yasm libfaac-dev libopencore-amrnb-dev libopencore-amrwb-dev libv4l-dev libxine-dev
+sudo apt-get -y install libdc1394-22-dev libavcodec-dev libavformat-dev libswscale-dev libtheora-dev libvorbis-dev libxvidcore-dev libx264-dev yasm libfaac-dev libopencore-amrnb-dev libopencore-amrwb-dev libv4l-dev libxine2-dev
 sudo apt-get -y install libtbb-dev libeigen3-dev
 sudo apt-get -y install python-dev python-tk python-numpy python3-dev python3-tk python3-numpy
 sudo apt-get -y install ant default-jdk
