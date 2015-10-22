@@ -38,7 +38,7 @@ sudo apt-get -y install ntp
 echo -e "${blue} Gnome-system-tools ${NC}"
 sudo apt-get -y install gnome-system-tools
 echo -e "${blue} Gedit and Plugins ${NC}"
-sudo apt-get -y install gedit && sudo apt-get -y install gedit-pulgins
+sudo apt-get -y install gedit && sudo apt-get -y install gedit-plugins
 echo -e "${blue} Dropbox ${NC}"
 sudo apt-get -y install nautilus-dropbox
 echo -e "${blue} Codeblocks ${NC}"
